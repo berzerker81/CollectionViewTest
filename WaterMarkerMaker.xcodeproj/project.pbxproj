@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D011FE9B20E0965F0088032A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FE9A20E0965F0088032A /* AppDelegate.swift */; };
+		D011FE9D20E0965F0088032A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FE9C20E0965F0088032A /* ViewController.swift */; };
+		D011FEA020E0965F0088032A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D011FE9E20E0965F0088032A /* Main.storyboard */; };
+		D011FEA220E096610088032A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D011FEA120E096610088032A /* Assets.xcassets */; };
+		D011FEA520E096610088032A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D011FEA320E096610088032A /* LaunchScreen.storyboard */; };
+		D011FEB020E096610088032A /* WaterMarkerMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FEAF20E096610088032A /* WaterMarkerMakerTests.swift */; };
+		D011FEBB20E096610088032A /* WaterMarkerMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FEBA20E096610088032A /* WaterMarkerMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D011FEAC20E096610088032A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D011FE8F20E0965F0088032A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D011FE9620E0965F0088032A;
+			remoteInfo = WaterMarkerMaker;
+		};
+		D011FEB720E096610088032A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D011FE8F20E0965F0088032A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D011FE9620E0965F0088032A;
+			remoteInfo = WaterMarkerMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D011FE9720E0965F0088032A /* WaterMarkerMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterMarkerMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011FE9A20E0965F0088032A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D011FE9C20E0965F0088032A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D011FE9F20E0965F0088032A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D011FEA120E096610088032A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D011FEA420E096610088032A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D011FEA620E096610088032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D011FEAB20E096610088032A /* WaterMarkerMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkerMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011FEAF20E096610088032A /* WaterMarkerMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkerMakerTests.swift; sourceTree = "<group>"; };
+		D011FEB120E096610088032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D011FEB620E096610088032A /* WaterMarkerMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkerMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011FEBA20E096610088032A /* WaterMarkerMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkerMakerUITests.swift; sourceTree = "<group>"; };
+		D011FEBC20E096610088032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D011FE9420E0965F0088032A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEA820E096610088032A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEB320E096610088032A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D011FE8E20E0965F0088032A = {
+			isa = PBXGroup;
+			children = (
+				D011FE9920E0965F0088032A /* WaterMarkerMaker */,
+				D011FEAE20E096610088032A /* WaterMarkerMakerTests */,
+				D011FEB920E096610088032A /* WaterMarkerMakerUITests */,
+				D011FE9820E0965F0088032A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D011FE9820E0965F0088032A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D011FE9720E0965F0088032A /* WaterMarkerMaker.app */,
+				D011FEAB20E096610088032A /* WaterMarkerMakerTests.xctest */,
+				D011FEB620E096610088032A /* WaterMarkerMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D011FE9920E0965F0088032A /* WaterMarkerMaker */ = {
+			isa = PBXGroup;
+			children = (
+				D011FE9A20E0965F0088032A /* AppDelegate.swift */,
+				D011FE9C20E0965F0088032A /* ViewController.swift */,
+				D011FE9E20E0965F0088032A /* Main.storyboard */,
+				D011FEA120E096610088032A /* Assets.xcassets */,
+				D011FEA320E096610088032A /* LaunchScreen.storyboard */,
+				D011FEA620E096610088032A /* Info.plist */,
+			);
+			path = WaterMarkerMaker;
+			sourceTree = "<group>";
+		};
+		D011FEAE20E096610088032A /* WaterMarkerMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D011FEAF20E096610088032A /* WaterMarkerMakerTests.swift */,
+				D011FEB120E096610088032A /* Info.plist */,
+			);
+			path = WaterMarkerMakerTests;
+			sourceTree = "<group>";
+		};
+		D011FEB920E096610088032A /* WaterMarkerMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D011FEBA20E096610088032A /* WaterMarkerMakerUITests.swift */,
+				D011FEBC20E096610088032A /* Info.plist */,
+			);
+			path = WaterMarkerMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D011FE9620E0965F0088032A /* WaterMarkerMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D011FEBF20E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMaker" */;
+			buildPhases = (
+				D011FE9320E0965F0088032A /* Sources */,
+				D011FE9420E0965F0088032A /* Frameworks */,
+				D011FE9520E0965F0088032A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMarkerMaker;
+			productName = WaterMarkerMaker;
+			productReference = D011FE9720E0965F0088032A /* WaterMarkerMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D011FEAA20E096610088032A /* WaterMarkerMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D011FEC220E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMakerTests" */;
+			buildPhases = (
+				D011FEA720E096610088032A /* Sources */,
+				D011FEA820E096610088032A /* Frameworks */,
+				D011FEA920E096610088032A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D011FEAD20E096610088032A /* PBXTargetDependency */,
+			);
+			name = WaterMarkerMakerTests;
+			productName = WaterMarkerMakerTests;
+			productReference = D011FEAB20E096610088032A /* WaterMarkerMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D011FEB520E096610088032A /* WaterMarkerMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D011FEC520E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMakerUITests" */;
+			buildPhases = (
+				D011FEB220E096610088032A /* Sources */,
+				D011FEB320E096610088032A /* Frameworks */,
+				D011FEB420E096610088032A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D011FEB820E096610088032A /* PBXTargetDependency */,
+			);
+			name = WaterMarkerMakerUITests;
+			productName = WaterMarkerMakerUITests;
+			productReference = D011FEB620E096610088032A /* WaterMarkerMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D011FE8F20E0965F0088032A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					D011FE9620E0965F0088032A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D011FEAA20E096610088032A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D011FE9620E0965F0088032A;
+					};
+					D011FEB520E096610088032A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D011FE9620E0965F0088032A;
+					};
+				};
+			};
+			buildConfigurationList = D011FE9220E0965F0088032A /* Build configuration list for PBXProject "WaterMarkerMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D011FE8E20E0965F0088032A;
+			productRefGroup = D011FE9820E0965F0088032A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D011FE9620E0965F0088032A /* WaterMarkerMaker */,
+				D011FEAA20E096610088032A /* WaterMarkerMakerTests */,
+				D011FEB520E096610088032A /* WaterMarkerMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D011FE9520E0965F0088032A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011FEA520E096610088032A /* LaunchScreen.storyboard in Resources */,
+				D011FEA220E096610088032A /* Assets.xcassets in Resources */,
+				D011FEA020E0965F0088032A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEA920E096610088032A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEB420E096610088032A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D011FE9320E0965F0088032A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011FE9D20E0965F0088032A /* ViewController.swift in Sources */,
+				D011FE9B20E0965F0088032A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEA720E096610088032A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011FEB020E096610088032A /* WaterMarkerMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011FEB220E096610088032A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011FEBB20E096610088032A /* WaterMarkerMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D011FEAD20E096610088032A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D011FE9620E0965F0088032A /* WaterMarkerMaker */;
+			targetProxy = D011FEAC20E096610088032A /* PBXContainerItemProxy */;
+		};
+		D011FEB820E096610088032A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D011FE9620E0965F0088032A /* WaterMarkerMaker */;
+			targetProxy = D011FEB720E096610088032A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D011FE9E20E0965F0088032A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D011FE9F20E0965F0088032A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D011FEA320E096610088032A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D011FEA420E096610088032A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D011FEBD20E096610088032A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D011FEBE20E096610088032A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D011FEC020E096610088032A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D011FEC120E096610088032A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D011FEC320E096610088032A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMarkerMaker.app/WaterMarkerMaker";
+			};
+			name = Debug;
+		};
+		D011FEC420E096610088032A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMarkerMaker.app/WaterMarkerMaker";
+			};
+			name = Release;
+		};
+		D011FEC620E096610088032A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterMarkerMaker;
+			};
+			name = Debug;
+		};
+		D011FEC720E096610088032A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBLJEZR6VM;
+				INFOPLIST_FILE = WaterMarkerMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkbrain.WaterMarkerMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterMarkerMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D011FE9220E0965F0088032A /* Build configuration list for PBXProject "WaterMarkerMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011FEBD20E096610088032A /* Debug */,
+				D011FEBE20E096610088032A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011FEBF20E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011FEC020E096610088032A /* Debug */,
+				D011FEC120E096610088032A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011FEC220E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011FEC320E096610088032A /* Debug */,
+				D011FEC420E096610088032A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011FEC520E096610088032A /* Build configuration list for PBXNativeTarget "WaterMarkerMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011FEC620E096610088032A /* Debug */,
+				D011FEC720E096610088032A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D011FE8F20E0965F0088032A /* Project object */;
+}
