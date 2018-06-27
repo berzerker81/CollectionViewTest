@@ -14,6 +14,10 @@
 		D011FEA520E096610088032A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D011FEA320E096610088032A /* LaunchScreen.storyboard */; };
 		D011FEB020E096610088032A /* WaterMarkerMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FEAF20E096610088032A /* WaterMarkerMakerTests.swift */; };
 		D011FEBB20E096610088032A /* WaterMarkerMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FEBA20E096610088032A /* WaterMarkerMakerUITests.swift */; };
+		D011FEC920E098CC0088032A /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011FEC820E098CC0088032A /* PhotoManager.swift */; };
+		D01D580A20E205F700E2D701 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D580920E205F700E2D701 /* ImageCell.swift */; };
+		D01D580C20E219BD00E2D701 /* imageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D580B20E219BD00E2D701 /* imageViewExt.swift */; };
+		D01D580E20E22C4900E2D701 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D580D20E22C4900E2D701 /* CollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D011FEB620E096610088032A /* WaterMarkerMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMarkerMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D011FEBA20E096610088032A /* WaterMarkerMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkerMakerUITests.swift; sourceTree = "<group>"; };
 		D011FEBC20E096610088032A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D011FEC820E098CC0088032A /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		D01D580920E205F700E2D701 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		D01D580B20E219BD00E2D701 /* imageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewExt.swift; sourceTree = "<group>"; };
+		D01D580D20E22C4900E2D701 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				D011FEA120E096610088032A /* Assets.xcassets */,
 				D011FEA320E096610088032A /* LaunchScreen.storyboard */,
 				D011FEA620E096610088032A /* Info.plist */,
+				D011FEC820E098CC0088032A /* PhotoManager.swift */,
+				D01D580920E205F700E2D701 /* ImageCell.swift */,
+				D01D580B20E219BD00E2D701 /* imageViewExt.swift */,
+				D01D580D20E22C4900E2D701 /* CollectionViewLayout.swift */,
 			);
 			path = WaterMarkerMaker;
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01D580E20E22C4900E2D701 /* CollectionViewLayout.swift in Sources */,
+				D011FEC920E098CC0088032A /* PhotoManager.swift in Sources */,
+				D01D580A20E205F700E2D701 /* ImageCell.swift in Sources */,
 				D011FE9D20E0965F0088032A /* ViewController.swift in Sources */,
+				D01D580C20E219BD00E2D701 /* imageViewExt.swift in Sources */,
 				D011FE9B20E0965F0088032A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBLJEZR6VM;
 				INFOPLIST_FILE = WaterMarkerMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBLJEZR6VM;
 				INFOPLIST_FILE = WaterMarkerMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

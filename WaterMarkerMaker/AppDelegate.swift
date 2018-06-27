@@ -9,7 +9,17 @@
 import UIKit
 
 @UIApplicationMain
+
+
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    enum BackGroundActionKind
+    {
+        case BackGroundActionNone, BackGroundActionAccessPhotoAuthorization
+    }
+    
+    var backGroundReason:BackGroundActionKind = .BackGroundActionNone
 
     var window: UIWindow?
 
@@ -35,10 +45,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        
+        switch backGroundReason {
+        case .BackGroundActionNone: break
+        case .BackGroundActionAccessPhotoAuthorization:
+            PhotoManager.shared.getPhotos { (result) in
+//                NotificationCenter.default.post(name: <#T##NSNotification.Name#>, object: <#T##Any?#>)
+            }
+            break
+        }
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    
+    func currentViewController()->UIViewController?
+    {
+        if let rootVC = self.window!.rootViewController
+        {
+            if let presentedVC = rootVC.presentedViewController
+            {
+                return presentedVC;
+            }else
+            {
+                return rootVC
+            }
+            
+        }
+        return nil
     }
 
 
